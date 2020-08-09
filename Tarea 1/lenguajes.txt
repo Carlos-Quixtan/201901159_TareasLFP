@@ -1,0 +1,27 @@
+Lenjuage Imperativo 
+
+La programación imperativa es el paradigma de programación más antiguo. 
+De acuerdo con este paradigma, un programa consiste en una secuencia claramente definida de instrucciones para un ordenador. Es decir, se le dan instrucciones al 
+ordenador de como hacer las cosas o como realizarlas. 
+
+             Ejemplo: factorial de un numero
+
+procedimiento factorial(entero n){
+     entero resultado = 1;
+     mientras (n > 0) {
+        resultado = resultado * n;
+        n = n - 1;
+     }
+     devuelve resultado;
+  }
+
+
+
+LENGUAGE DECLARATIVO
+
+Un lenguaje declarativo es un tipo de lenguaje de programación basado más en las matemáticas y en la lógica que los lenguajes imperativos, este lenguaje
+es mas como el razonamiento humano. Los lenguajes declarativos no dicen cómo hacer una cosa, sino qué cosa hacer.
+
+           Ejemplo: factorial de un numero
+
+realiza el factorial del numero (n)
